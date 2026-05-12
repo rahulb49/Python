@@ -45,3 +45,14 @@ if __name__ == '__main__':
     b = int(input())
     
     print(a//b,a/b,sep='\n')
+
+----------------------------------------------------------------------
+Task 
+Problem Statement
+The provided code stub reads an integer n from standard input.
+For all non-negative integers i < n, print the square of i on a separate line.
+
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i*i)
