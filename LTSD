@@ -10,3 +10,16 @@ for i in range(n):
     else:
         print("not Palidrome")
 print(type(list_user))
+
+=-----------------------TUPLE____________________
+tuple= ("c","d","a","b","a","a")
+
+print(tuple.count("a"))
+
+list1 = list(tuple)
+print (type(list1))
+list1.sort()
+print(list1)
+
+
+print(sorted(list1))
