@@ -1,1 +1,12 @@
 
+n = int(input("How many?"))
+
+for i in range(n):
+    list_user = list(input("enter name"))
+    copy_list = list_user.copy()
+    copy_list.reverse()
+    if (list_user == copy_list):
+        print("palidrome")
+    else:
+        print("not Palidrome")
+print(type(list_user))
